@@ -31,19 +31,19 @@ You need install first:
 - Go to main project at [project-url]
 - Clone the repo:
 ```shell
-git clone https://github.com/alejandrogm90/coin-comparator.git
+git clone https://github.com/alejandrogm90/python3_template.git
 ```
 
 - Install all requirements:
 ```shell
-pip install -r requirements.txt
+pipenv update
 ```
 
 ## Usage
 On terminal:
 
 ```shell
-./setup.py
+pipenv run python main.py
 ```
 
 _For more examples, please refer to the [Documentation][wiki-url]_
